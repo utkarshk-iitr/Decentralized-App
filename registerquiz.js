@@ -8,5 +8,4 @@ app.get('/activequiz/:publicKey/:quizName',async (req,res)=>{
     res.send(await user.findOne({publicKey:publicKey}));
 }); 
 }
-
 export default registerquiz;

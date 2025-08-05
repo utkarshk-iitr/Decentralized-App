@@ -18,3 +18,4 @@ import mongoose from "mongoose";
   ]});
   let question;
   export default question = mongoose.model("question",quizSchema)
+  
