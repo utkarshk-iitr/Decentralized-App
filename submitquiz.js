@@ -11,5 +11,4 @@ app.post('/:publicKey/submitquiz',(req,res)=>{
     res.send(options);
 })
 }
-
 export default submitquiz;
